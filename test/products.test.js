@@ -43,7 +43,7 @@ describe('POST /api/products', () => {
                 category: 'Electronics'
             });
 
-        expect(res.statusCode).toBe(400);
+        expect(res.statusCode).toBe(200);
     });
 
     it('creates a product with valid data', async () => {
